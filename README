@@ -1,0 +1,32 @@
+# Penn LEAD XCP-D Derivatives
+
+This dataset contains XCP-D derivatives for the Penn LEAD dataset (https://openneuro.org/datasets/ds007116).
+
+The command used to XCP-D was:
+
+```
+xcp_d \
+    /data/fmriprep \
+    /data/xcp_d \
+    participant \
+    --stop-on-first-crash \
+    --mode linc \
+    --input-type fmriprep \
+    --dummy-scans auto \
+    --atlases \
+        4S1056Parcels \
+        4S156Parcels \
+        4S256Parcels \
+        4S356Parcels \
+        4S456Parcels \
+        4S556Parcels \
+        4S656Parcels \
+        4S756Parcels \
+        4S856Parcels \
+        4S956Parcels \
+        Glasser \
+        Gordon \
+        HCP \
+        MIDB \
+        Tian
+```
